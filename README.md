@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Decentralized AI test
 
-First, run the development server:
+A task to impliment parallax effects.
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/GrigoryyKach/decentralized-ai.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd decentralized-ai
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![React.js](https://camo.githubusercontent.com/9c8a85102d208b80783b03e2a97414aa2c7b6d6fed0421e7ac19b1a6f8b19dd8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163742d3030303030303f7374796c653d666c6174266c6f676f3d7265616374)
+![Next.js](https://camo.githubusercontent.com/2eea8b61d9149bc177ae5a040228f9d677942b52bf2b52ef150b91784c752408/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6578742e6a732d3030303030303f7374796c653d666c6174266c6f676f3d6e6578742e6a73)
+![JavaScript](https://camo.githubusercontent.com/562ed883c23d861344f84c98d87c11165f7f4bb8f979d0ede78727912dd379ac/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material--UI-007FFF?style=flat&logo=mui&logoColor=white)
