@@ -30,7 +30,7 @@ const Cards = () => {
         ease: 'power2.inOut',
         scrollTrigger: {
           trigger: statsRef.current[0],
-          start: 'top 90%',
+          start: 'top 80%',
           toggleActions: 'play none none reverse',
         },
       }
